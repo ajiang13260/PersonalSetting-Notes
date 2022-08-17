@@ -38,7 +38,7 @@
 
 ### 设计
 (设计这一栏的书签我全都想放上来但时间有限只放一个导航类的)
-Jonas's Resources https://codingheroes.io/resources/
+- Jonas's Resources https://codingheroes.io/resources/
 
 ### 不常用的书签备份
 - Medium https://medium.com/
