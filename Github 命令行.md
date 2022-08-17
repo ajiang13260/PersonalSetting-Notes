@@ -1,0 +1,58 @@
+# Github 命令行
+
+github git cheatsheet - [官方文档](https://education.github.com/git-cheat-sheet-education.pdf)，[中文](https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/)，[教程](https://docs.github.com/en/get-started/quickstart/git-and-github-learning-resources)
+
+- working directory → stageing area → local repository
+    - 创建 .gitignore
+    - git init //初始化
+    - ls -a //查看工作区域内的文件，此时出现 .git 文件夹
+    - git status //查看文件状态，此时chapter1.txt 在工作目录
+    - git add chapter1.txt //将chapter1.txt上传到临时区域
+    - git add . //批量上传所有文件
+    - git add -A 批量上传所有文件
+    - git rm --cached -r chapter1.txt //撤销add上传
+    - git status //查看文件状态，此时chapter1.txt 在临时区域
+    - git commit -m "complete chapter1" //上传文件到本地存储库
+    - -m for “message”
+    - git rm --cached -r . //撤销add上传
+    - git log //查看上传日志
+    - stageing area的作用：此区域的文件是需要上传保存的文件
+    - git diff chapter3.txt //查看文件变动
+    - git checkout chapter3.txt //回滚到上个版本
+    - git reset --hard HEAD //回滚到上个版本
+    - git reset --hard 3429374892759 //回滚到指定id版本
+- local repository → Romote Repository(github)
+    - git remote add origin [https://github.com/ajiang13260/Story](https://github.com/ajiang13260/Story) //定位到要上传的库
+    - 登录到GitHub
+    - git push -u origin master //上传到主线
+    - GitHub最新版本
+    - git remote add origin [https://github.com/ajiang13260/Omnifood-Desktop.git](https://github.com/ajiang13260/Omnifood-Desktop.git)
+    - git branch -M main
+    - git push -u origin main（-u是什么意思？为什么有时候被忽略？）
+- gitignore
+    - 不上传包含密码、api key等的文件；个人设置文件，如.DS_Store
+    - .DS_Store
+    - secrets.txt
+    - #Comment
+    - #Pod files
+    - .txt
+    - [https://github.com/github/gitignore](https://github.com/github/gitignore)
+    - [https://github.com/github/gitignore/blob/master/Swift.gitignore](https://github.com/github/gitignore/blob/master/Swift.gitignore)
+- Cloning
+    - git clone [https://github.com/patorjk/JavaScript-Snake.git](https://github.com/patorjk/JavaScript-Snake.git)
+- Branching and Merging
+    - git branch alien-plot //创建一个新的分支
+    - git branch //查看当前分支
+    - git checkout alien-plot //切换到新建的分支
+    - 用新建分支合并到主分支
+        - git checkout master //回到主分支
+        - git merge alien-plot //合并新建分支到主分支
+        - 如果进入了vim，可通过 :q!退出（或者直接q
+        - git push origin master -u //同样可以实现上传
+    - 在网站GitHub实现新建分支合并到主分支
+        - 切换到主分支（目前主分支为main）
+        - pull new request //需要在pull request 界面找到
+        - compare page：确定base:main，compare:expreimental
+        - create pull request
+- forking and pull request
+    - GitHub线上进行
