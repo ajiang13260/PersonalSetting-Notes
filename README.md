@@ -37,9 +37,41 @@
 - 在线正则表达式测试器 https://deerchao.cn/tools/wegester/
 
 ### 设计
-(设计这一栏的书签我全都想放上来但时间有限只放一个导航类的)
 - Jonas's Resources https://codingheroes.io/resources/
 - 设计手绘在线网站 https://excalidraw.com/
+- 原型设计https://mastergo.com/
+- 流程图 https://www.processon.com/
+- 流程图 https://www.diagrams.net/
+- 截圆图 https://crop-circle.imageonline.co/#circlecropresult
+- 不同平台字体显示成功率 https://www.cssfontstack.com/
+- 狗屁不通生成器1 https://loremipsumgenerator.org/
+- 狗屁不通生成器2 https://loremipsum.io/
+- Emoji https://emojipedia.org/
+- Emoji https://www.emojimeanings.net/list-smileys-people-whatsapp
+- 设计自己的图标 https://www.favicon.cc/
+- https://www.iconfont.cn/?spm=a313x.7781069.1998910419.d4d0a486a
+- 小图标 https://www.flaticon.com/
+- https://react-icons.github.io/react-icons
+- GIF https://giphy.com/
+- http://ui-patterns.com/
+- 可视化按钮1 https://css3buttongenerator.com/
+- 可视化按钮2 https://cssbuttoncreator.com/
+- 优秀网站范例 https://www.awwwards.com/websites/com/
+- 网站设计案例 https://dribbble.com/search/website
+- Bootstrap免费代码片段 https://bootsnipp.com/
+- 移动设备合适性测试 https://search.google.com/test/mobile-friendly
+- 色轮、调色盘生成器 https://color.adobe.com/zh/create/color-wheel
+- UI设计师每日挑战 https://www.dailyui.co/
+- https://www.uidesigndaily.com/
+- 线上网页设计（类似墨刀）https://balsamiq.cloud/#login?next=%2Fsh6t2ey%2Fsettings
+- 给开发看的UI设计 https://www.yuque.com/shenyangdong/kb/gk2bw1
+- 随机图片 https://picsum.photos/
+- 颜色 https://flatuicolors.com/
+- https://css-tricks.com/
+- UI框架 https://semantic-ui.com/
+- React ui框架 https://mui.com/zh/
+- React UI框架 https://material-ui.com/zh/
+- UI框架 https://ant.design/index-cn
 
 ### 不常用的书签备份
 - Medium https://medium.com/
